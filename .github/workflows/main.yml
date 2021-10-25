@@ -13,3 +13,4 @@ jobs:
 
       - name: run test 
         run: echo ${{ secrets.TEST_ENV }} 
+        run: echo ${{ env.TEST_ENV }} 
