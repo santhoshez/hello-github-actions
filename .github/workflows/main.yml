@@ -9,7 +9,7 @@ jobs:
       - uses: actions/checkout@v1
       - uses: ./action-a
          with:
-                MY_NAME: "Santhosh"
+           MY_NAME: "Santhosh"
 
       - name: run test 
         run: echo test san ${{ env.TEST_ENV }}
