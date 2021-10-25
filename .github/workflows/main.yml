@@ -6,9 +6,9 @@ jobs:
     name: santest first I 
 
 
-jobs:
-  build:
-    name: Hello world action
+
+
+
 
     runs-on: ubuntu-latest
     steps:
