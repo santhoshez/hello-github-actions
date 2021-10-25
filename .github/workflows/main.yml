@@ -8,10 +8,8 @@ jobs:
     steps:
       - uses: actions/checkout@v1
       - uses: ./action-a
-         with:
-           MY_NAME: "Santhosh"
+        with:
+                MY_NAME: "santhosh"
 
       - name: run test 
-        run: echo test san ${{ env.TEST_ENV }}
-
-
+        run: echo ${{ env.TEST_ENV }} 
